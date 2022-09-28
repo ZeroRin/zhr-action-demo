@@ -21,7 +21,7 @@ jobs:
             dingtalk_token: DINGTALK_TOKEN
     steps:
       - name: 打卡
-        uses: ZeroRin/zhr-action@main
+        uses: ZeroRin/zhr-action@release
         with:
           username: ${{ secrets[matrix.username] }}
           password: ${{ secrets[matrix.password] }}
